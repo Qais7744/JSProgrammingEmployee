@@ -11,10 +11,10 @@
     switch (empCheck) {
         case IS_PART_TIME:
             empHrs = PART_TIME_HOURS;
-            break
+            break;
         case IS_FULL_TIME:
             empHrs = IS_FULL_TIME;
-            break
+            break;
         default:
             empHrs = 0;
     }
